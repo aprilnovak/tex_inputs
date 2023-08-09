@@ -5532,13 +5532,14 @@ booktitle = {European Congress on Computational Methods in Applied Sciences and 
       DOI = {10.1080/00295450.2020.1825307}
 }
 
-@misc{nekrs,
+@Article{nekrs,
    author = {P. Fischer and S. Kerkemeier and M. Min and Y. Lan and M. Phillips and T. Rathnayake and E. Merzari and A. Tomboulides and A. Karakus and N. Chalmers and T. Warburton},
     title = {{NekRS, a GPU-Accelerated Spectral Element Navier-Stokes Solver}},
-archivePrefix = "arXiv",
-     year = 2021,
-    month = apr,
-     note = {arXiv:2104.05829}
+  journal = {Parallel Computing},
+     year = 2022,
+   volume = 114,
+    pages = {102982},
+      doi = {10.1016/j.parco.2022.102982}
 }
 
 @Article{merzari2021,
@@ -6734,7 +6735,9 @@ booktitle = {Proceedings of Physor},
    title = {{MOOSE} Stochastic Tools: A Module for Performing Parallel, Memory-Efficient In Situ Stochastic Simulations},
   author = {A.E. Slaughter and Z.M. Prince and P. German and I. Halvic and W. Jiang and B.W. Spencer and S.L.N. Dhulipala and D.R. Gaston},
     year = {2022},
- journal = {{SoftwareX preprint}}
+  volume = 22,
+  pages = 101345,
+ journal = {{SoftwareX}}
 }
 
 @InProceedings{remley,
@@ -7554,11 +7557,184 @@ booktitle = {Proceedings of the International Association of Applied Mathematics
       DOI = {10.1002/nme.1620370205}
 }
 
-@TechReport{martin_2007,
-   author = {W.R. Martin and J.P. Holloway and K. Banerjee and J. Cheatham and J. Conlin},
-    title = {{Global {Monte Carlo} Simulation with High Order Polynomial Expansions}},
-institution = {University of Michigan},
-   number = {DE-FG07-04ID14607},
-     year = 2007
+@TechReport{yuan_2022,
+   author = {H. Yuan and T. Nguyen and E. Merzari and D. Dai and B. Jackson and N. Salpeter and K. Yau and G. Busco and D. Shaver},
+    title = {{High Fidelity {CFD} Simulations Supporting the {KP-FHR}}},
+institution = {Argonne National Laboratory},
+   number = {ANL/NSE-22/80},
+     year = 2022
+}
+
+@Article{reger_2023,
+   author = {D. Reger and E. Merzari and P. Balestra and S. Schunert and Y. Hassan and H. Yuan},
+    title = {{An Improved Pressure Drop Correlation for Modeling Localized Effects in a Pebble Bed Reactor}},
+  journal = {Nuclear Engineering and Design},
+     year = 2023,
+   volume = 403,
+    pages = {112123},
+      DOI = {10.1016/j.nucengdes.2022.112123}
+}
+
+@Article{reger_2023b,
+   author = {D. Reger and E. Merzari and P. Balestra and R. Stewart and G. Strydom},
+    title = {{Discrete Element Simulation of Pebble Bed Reactors on Graphics Processing Units}},
+  journal = {Annals of Nuclear Energy},
+     year = 2023,
+   volume = 190,
+    pages = {109896},
+      DOI = {10.1016/j.anucene.2023.109896}
+}
+
+@TechReport{bass,
+   author = {J. Bass},
+    title = {{Initial Developments in Modeling Graphite Behavior}},
+institution = {Idaho National Laboratory},
+   number = {INL EXT-21-63147},
+     year = 2021
+}
+
+@Article{novascone_2015,
+   author = {S.R. Novascone and B.W. Spencer and J.D. Hales and R.L. Williamson},
+    title = {{Evaluation of Coupling Approaches for Thermomechanical Simulations}},
+  journal = {Nuclear Engineering and Design},
+     year = 2015,
+   volume = 295,
+    pages = {910--921},
+      DOI = {10.1016/j.nucengdes.2015.07.005}
+}
+
+@Article{robert,
+   author = {Y. Robert and T. Siaraferas and M. Fratoni},
+    title = {{Proof of Concept for Hyper-Fidelity Depletion of Full-Scale Pebble Bed Reactors}},
+  journal = {Annals of Nuclear Energy},
+     year = 2023,
+   volume = 183,
+    pages = {109648},
+      DOI = {10.1016/j.anucene.2022.109648}
+}
+
+@TechReport{kairos_gfhr,
+  title       = {{Equilibrium Core Concentrations}},
+  institution = {Kairos Power},
+  year        = {2021},
+  howpublished = {\url{https://tinyurl.com/ybyekz7e}}
+}
+
+@Article{tano,
+   author = {M.E. Tano and J.C. Ragusa},
+    title = {{Coupled Computational Fluid Dynamics-Discrete Element Method Study of Bypass Flows in a Pebble Bed Reactor}},
+  journal = {Nuclear Technology},
+     year = 2021,
+   volume = 207,
+    pages = {1599--1614},
+      DOI = {10.1080/00295450.2020.18208301599}
+}
+
+@inproceedings{chaube,
+   author = {A. Chaube and A.J. Novak and H. Yuan and E. Merzari and D.R. Shaver and P.F. Fischer and C.S. Brooks},
+    title = {{A Preliminary Fluid-Structure Coupling of {NekRS} and {MOOSE} via {Cardinal}}},
+booktitle = {Proceedings of M\&C},
+     year = 2023
+}
+
+@Article{spencer,
+   author = {B. Spencer and W.M. Hoffman and S. Biswas and W. Jiang and A. Giorla and M.A. Backman},
+    title = {{Grizzly and BlackBear: Structural Component Aging Simulation Codes}},
+  journal = {Nuclear Technology},
+     year = 2021,
+   volume = 207,
+    pages = {981--1003},
+      DOI = {10.1080/00295450.2020.1868278}
+}
+
+@Article{valentine,
+   author = {A. Valentine and R. Worrall and J. Leppanen},
+    title = {{Investigation of Novel Weight Window Methods in {Serpent} 2 for Fusion Neutronics Applications}},
+  journal = {Fusion Engineering and Design},
+     year = 2022,
+   volume = 178,
+    pages = {113090},
+      DOI = {10.1016/j.fusengdes.2022.113090}
+}
+
+@inproceedings{stauff_2021,
+   author = {N.E. Stauff and K. Mo and Y. Cao and J.W. Thomas and Y. Miao and C. Lee and C. Matthews and B. Feng},
+    title = {{Preliminary Applications of {NEAMS} Code for Multiphysics Modeling of a Heat Pipe Microreactor}},
+booktitle = {Proceedings of ANS},
+     year = 2021
+}
+
+@Article{aicher,
+   author = {T. Aicher and H. Martin},
+    title = {{New Correlations for Mixed Turbulent Natural and Force Convection Heat Transfer in Vertical Tubes}},
+  journal = {International Journal of Heat and Mass Transfer},
+     year = 1997,
+   volume = 40,
+    pages = {3617--3626},
+      DOI = {10.1016/S0017-9310(97)00026-4}
+}
+
+@inproceedings{bahadir,
+   author = {T. Bahadir and S. Lindahl},
+    title = {{Studsvik's Next Generation Nodal Code {SIMULATE-5}}},
+booktitle = {Advances in Nuclear Fuel Management IV},
+     year = 2009
+}
+
+@Article{adamowicz,
+   author = {N.J. Adamowicz and A. Manera and E.W. Larsen},
+    title = {{The {NILO-CMFD} Method for Iteratively Solving Coupled Neutron Transport-Thermal Hydraulics Problems}},
+  journal = {Nuclear Science and Engineering},
+     year = 2023,
+   volume = 197,
+    pages = {262--278},
+      DOI = {10.1080/00295639.2022.2112900}
+}
+
+@Misc{lightbridge,
+  author       = {{Nuclear Newswire}},
+  title        = {{``Now is the time'' for more {ATR} capacity: A conversation with {Lightbridge}}},
+  year         = 2021,
+  url          = {https://tinyurl.com/5fjvxjkx}
+}
+
+@Article{chanaron_2017,
+  author     = {B. Chanaron},
+  title      = {{Overview of the {NURESAFE} European Project}},
+  journal    = {Nuclear Engineering and Design},
+  year       = 2017,
+  volume     = 321,
+       pages = {1-7},
+      DOI = {10.1016/j.nucengdes.2017.09.001}
+}
+
+@Article{demaziere,
+  author     = {C. Demaziere and V. Hugo Sanchez-Espinoza and B. Chanaron},
+  title      = {{Advanced Numerical Simulation and Modeling for Reactor Safety - Contributions from the {CORTEX}, {HPMC}, {McSAFE}, and {NURESAFE} Projects}},
+  journal    = {EPJ Nuclear Science and Technology},
+  year       = 2020,
+  volume     = 6,
+   issue     = 42,
+      DOI = {10.1051/epjn/2019006}
+}
+
+@Article{duan,
+  author     = {Z. Duan and J. Zhang and Y. Wu and B. Li and M. Wang and Y. He and W. Tian and S. Qiu and G.H. Su},
+  title      = {{Multi-Physics Coupling Analysis on Neutronics, Thermal Hydraulic and Mechanics Characteristics of a Nuclear Thermal Propulsion Reactor}},
+  journal    = {Nuclear Engineering and Design},
+  year       = 2022,
+  volume     = 399,
+  pages      = {112042},
+      DOI = {10.1016/j.nucengdes.2022.112042}
+}
+
+@Article{gates,
+  author     = {J.T. Gates and A. Denig and R. Ahmed and V.K. Mehta and D. Kotlyar},
+  title      = {{Low-Enriched Cermet-Based Fuel Options for a Nuclear Thermal Propulsion Engine}},
+  journal    = {Nuclear Engineering and Design},
+  year       = 2018,
+  volume     = 331,
+  pages      = {313--330},
+      DOI = {10.1016/j.nucengdes.2018.02.036}
 }
 
